@@ -11,7 +11,7 @@ class ProductsController < ActionController::Base
     cart << params[:product]
    
     # Save the cart in the session.
-    #session[:cart] = cart #no need for this as cart renderes the session
+    #session[:cart] = cart #no need for this as cart renders the session
     
     render :index 
   end
