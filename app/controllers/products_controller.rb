@@ -7,7 +7,7 @@ class ProductsController < ActionController::Base
     #binding.pry
    
     # Load the cart from the session, or create a new empty cart.
-    cart = session[:cart] || []
+    #cart = session[:cart] || []
     cart << params[:product]
    
     # Save the cart in the session.
