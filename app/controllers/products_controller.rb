@@ -12,6 +12,8 @@ class ProductsController < ActionController::Base
    
     # Save the cart in the session.
     session[:cart] = cart
+    
+    redirect_to 
   end
   
 end
